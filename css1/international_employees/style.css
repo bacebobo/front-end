@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+
+}
+tr td{
+    border-top: none;
+    border: 1px inset darkgrey;
+    padding: 5px;
+}
+thead{
+    color:white;
+    background: #32CD32;
+}
+tbody > tr:nth-of-type(2n){
+    background: #FFEFD5;
+}
+img{
+    height: 20px;
+    weight: 30px;
+}

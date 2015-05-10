@@ -1,0 +1,103 @@
+div.laptopPrice, div.text , label, span{
+    font-family: georgia;
+}
+article{
+    width: 740px;
+}
+article header{
+    text-align: center;
+}
+section.main{
+    border: 1px solid black;
+    padding: 5px;
+    height: 480px;
+    width: 505px;
+}
+a{
+    color: #0094ff;
+}
+article header h2{
+    display: inline;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+/* Left Fieldset positions edit */
+
+section.left{
+    float: left;
+    width: 280px;
+}
+
+section.left fieldset{
+    width: 220px;
+}
+
+section.left fieldset img{
+    float: left;
+}
+
+section.left fieldset div.laptopPrice{
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+section.left fieldset div.text{
+    float: right;
+    margin-top: -65px;
+}
+
+/* Right Fieldset positions edit */
+section.middle{
+    float: left;
+    width: 250px;
+    margin-left: -25px;
+}
+
+section.middle fieldset{
+    width: 220px;
+}
+
+section.middle fieldset img{
+    float: left;
+}
+
+section.middle fieldset div.laptopPrice{
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+section.middle fieldset div.text{
+    float: right;
+    margin-top: -65px;
+}
+
+/* Inputs, Labels n Span positions */
+
+section.right{
+    margin-right: -20px;
+    float: right;
+    margin-top: -440px;
+}
+
+section.right div{
+    margin: 25px;
+}
+
+section.right input{
+    width: 170px;
+    margin-left: -60px;
+}
+
+label{
+    margin: -25px;
+}
+
+span{
+    margin-left: 40px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Grid Component</title>
+    <style type="text/css">
+        table{
+            border-collapse: collapse;
+        }
+        table,tr,td{
+
+            border:1px solid silver;;
+        }
+        .img {
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            -ms-filter: "FlipH";
+        }
+        .silve0{
+            background: lightgrey;
+        }
+        .silver1{
+            background: silver;
+        }
+
+    </style>
+</head>
+<body>
+    <table cellpadding="4">
+        <tr class="silve0" >
+        <td colspan="6">Drag a  </td>
+        </tr>
+        <tr class="silver1">
+            <td> ProductID </td>
+            <td> Product name </td>
+            <td> Unit price </td>
+            <td> Quantity per unit </td>
+            <td> Units in stock </td>
+            <td> Discontinued </td>
+        </tr>
+        <tr class="silve0">
+            <td> <input type="text" size="1"> </td>
+            <td> <input type="text" size=""> </td>
+            <td> <input type="text" size="10"> </td>
+            <td> <input type="text" size="13"> </td>
+            <td> <input type="text" size="13"> </td>
+            <td> <input type="checkbox" size=""> </td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> Chai </td>
+            <td> $18 </td>
+            <td> 10 boxex x 20 bags </td>
+            <td> 39 </td>
+            <td> <input type="checkbox" size=""> </td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> Chang </td>
+            <td> $19 </td>
+            <td> 24 - 12 oz bottles </td>
+            <td> 17 </td>
+            <td> <input type="checkbox" size=""> </td>
+        </tr>
+        <tr>
+            <td> 3 </td>
+            <td> Anyseed Syrup </td>
+            <td> $10 </td>
+            <td> 12-550 ml bottles </td>
+            <td> 13 </td>
+            <td> <input type="checkbox" size=""> </td>
+        </tr>
+        <tr>
+            <td> 4 </td>
+            <td> Chief Anton's Cajun Seasoning </td>
+            <td> $22 </td>
+            <td> 48-6 oz jars </td>
+            <td> 53 </td>
+            <td> <input type="checkbox" size=""> </td>
+        </tr>
+        <tr>
+            <td class="silve0" colspan="6">
+                <div>
+                    <input type="image" src="icon2.png"> <input type="image" src="icon3.png">
+                    1 2 3 4 5 6 7 8
+                    <input class="img" type="image" src="icon3.png">
+                    <input class="img" type="image" src="icon2.png">
+
+
+                    <label for="10"> Page: </label>
+                    <select id="10">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+    </table>
+<!-- Това с картинките само не разбрах как да ги направя да са точно на височина колкото Input-ите
++ май за първите 3 реда и последния ще трябва да използвам малко картинки, като background за да изглежда като тази от заданието. -->
+</body>
+</html>

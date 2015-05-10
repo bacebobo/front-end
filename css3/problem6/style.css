@@ -1,0 +1,84 @@
+fieldset{
+    background-color: #1E3741;
+    border-radius: 2%;
+    padding: 0;
+    margin: 0;
+    width: 700px;
+}
+/* Header Nav positions edit */
+header nav ul{
+    list-style: none;
+    padding: 0px;
+}
+    header nav ul li{
+        float: left ;
+        display: inline;
+        border-right: #1E3741;
+    }
+
+
+/* Header Nav design */
+header nav ul li{
+    font-size: 15px;
+    background-color: #4B5F67;
+    padding: 5px 10px;
+    margin: 1px;
+}
+
+header nav ul li:first-child{
+    background-color: #1E3741;
+}
+header nav ul li:first-child a {
+    color: white;
+}
+
+header nav ul li a{
+text-decoration: none;
+    color: #8A9EA6;
+}
+header nav ul li a:hover{
+text-decoration: underline;
+}
+header nav ul li:nth-child(2) a{
+    text-decoration: underline;
+}
+/* Section and Nav positions edit */
+section nav ul{
+    list-style: none;
+    padding: 0px;
+}
+section nav ul li{
+    padding: 5px 10px ;
+}
+section {
+    float: left;
+}
+section nav{
+    width: 279px;
+}
+
+/* Section and Nav design */
+
+section nav ul li:first-child{
+    background-color: #00968C;
+    color: white;
+    border-bottom: none;
+}
+section nav ul li{
+    font-weight: bold;
+    color: #9F9682;
+}
+section nav ul li{
+    border-bottom: 1px solid grey;
+}
+section nav ul li:last-child{
+    border-bottom: none;
+}
+
+section img{
+    padding: 16px 0px 0px 0px;
+}
+
+/* Отново искам да благодаря на едно от момичетата във форума
+за, това че сподели нейното домашно и ме накара да си подредя кода
+качествено и да си направя това упражнение за 30 мин. */

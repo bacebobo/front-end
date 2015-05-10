@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<main>
+    <article>
+        <table>
+            <tr>
+                <td id="tdwidth"> <img src="Untitled.png" </td>
+            </tr>
+            </table>
+           <table>
+            <tr>
+                <td colspan="2">
+                    <nav>
+                        <table>
+
+                            <tr>
+                                <td> <span><a href="#">View</a>  </span> <span> <a href="#"> Edit</a></span> <span><a href="#"> Help </a></span></td>
+                            </tr>
+
+                    </table>
+                    </nav>
+                    <fieldset>
+                        <input type="text" value="8854455" />
+                    </fieldset>
+                    <fieldset>
+                        <table id="numbers">
+                            <tr>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                                <td>0000</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">63</td>
+                                <td colspan="3">  47</td>
+                                <td> 37 </td>
+                            </tr>
+                            <tr>
+                                <td> 0000</td>
+                                <td> 0000</td>
+                                <td>1000</td>
+                                <td>0111</td>
+                                <td>0001</td>
+                                <td>1011</td>
+                                <td>1011</td>
+                                <td>0111</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">31</td>
+                                <td colspan="3">  15</td>
+                                <td> 0 </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr class="choice">
+                                        <td rowspan="3" colspan="2">
+                                            <span><input id="hex" type="radio" /> </span>
+                                            <span> <label for="hex"> Hex </label> </span>
+                                            <div> <span> <input id="dec" type="radio" checked="checked" /> </span>
+                                                <span> <label for="dec"> Dec </label> </span> </div>
+                                            <div> <span><input id="oct" type="radio" /> </span>
+                                                <span> <label for="oct"> Oct</label> </span> </div>
+                                            <div> <span><input id="bin" type="radio" /> </span>
+                                                <span> <label for="bin"> Bin </label> </span> </div>
+                                        </td>
+
+
+                                        <td>  <button disabled class="result"> </button> </td>
+                                        <td><button class="whiteblue"> Mod </button> </td>
+                                        <td><button disabled> A </button> </td>
+                                        <td><button disabled> MC</button> </td>
+                                        <td><button disabled> MR </button> </td>
+                                        <td><button disabled> MS </button> </td>
+                                        <td><button disabled> M+ </button> </td>
+                                        <td><button disabled> M- </button> </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><button class="whiteblue" > ( </button> </td>
+                                        <td><button class="whiteblue"> ) </button> </td>
+                                        <td><button disabled> B </button></td>
+                                        <td id="arrow"><button class="whiteblue"> &#8678; </button> </td>
+                                        <td>  <button class="whiteblue"> CE </button> </td>
+                                        <td> <button class="whiteblue"> C </button> </td>
+                                        <td> <button class="whiteblue"> ± </button>  </td>
+                                        <td> <button disabled> √ </button> </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><input type="button" value="RoL" class="whiteblue"></td>
+                                        <td><button class="whiteblue"> RoR </button></td>
+                                        <td><button disabled > C </button></td>
+                                        <td><button class="numbers"> 7 </button></td>
+                                        <td><button class="numbers"> 8 </button></td>
+                                        <td><button class="numbers"> 9 </button></td>
+                                        <td><button class="whiteblue"> / </button> </td>
+                                        <td> <button disabled> % </button>   </td>
+
+                                    </tr>
+                                    <tr class="choice">
+                                        <td rowspan="3" colspan="2">
+                                            <span><input id="qword" type="radio" checked="checked"/> </span>
+                                            <span> <label for="qword"> Qword </label> </span>
+                                            <div> <span><input id="dword" type="radio" /> </span>
+                                                <span> <label for="dword"> Dword </label> </span> </div>
+                                            <div> <span><input id="word" type="radio" /> </span>
+                                                <span> <label for="word"> Word </label> </span> </div>
+                                            <div> <span><input id="byte" type="radio" /> </span>
+                                                <span> <label for="byte"> Byte </label> </span> </div>
+                                        </td>
+                                        <td><button class="whiteblue"> Or </button>  </td>
+                                        <td><button class="whiteblue"> Xor </button>  </td>
+                                        <td><button disabled> D  </button>  </td>
+                                        <td><button class="numbers"> 4 </button>  </td>
+                                        <td><button class="numbers"> 5 </button>  </td>
+                                        <td><button class="numbers"> 6 </button>  </td>
+                                        <td><button class="whiteblue"> * </button>  </td>
+                                        <td> <button disabled> 1/x </button>  </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><button class="whiteblue"> Lsh </button>  </td>
+                                        <td><button class="whiteblue"> Rsh </button> </td>
+                                        <td><button disabled> E </button> </td>
+                                        <td><button class="numbers"> 1 </button> </td>
+                                        <td><button class="numbers"> 2 </button> </td>
+                                        <td><button class="numbers"> 3 </button> </td>
+                                        <td><button class="whiteblue"> - </button> </td>
+                                        <td rowspan="2" class="whiteblue"> <button class="result"> = </button>  </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><button class="whiteblue"> Not </button> </td>
+                                        <td><button class="whiteblue"> And </button> </td>
+                                        <td><button disabled> F </button> </td>
+                                        <td colspan="2"> <button class="numbers"> 0 </button> </td>
+                                        <td><button> . </button> </td>
+                                        <td><button class="whiteblue"> + </button> </td>
+
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </article>
+</main>
+
+</body>
+</html>

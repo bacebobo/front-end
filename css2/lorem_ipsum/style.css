@@ -1,0 +1,20 @@
+@font-face {
+ font-family: fantastic;
+    src: url(Consolas.ttf);
+}
+@font-face {
+    font-family: adwert;
+    src: url(ITCEDSCR.TTF)
+}
+p:first-letter{
+    font-family: adwert;
+    font-size: 200%;
+}
+p:first-line{
+    font-family: fantastic;
+    font-weight: bold;
+}
+p{
+    font-family: fantastic;
+    color: #0094ff
+}

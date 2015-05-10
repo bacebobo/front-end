@@ -1,0 +1,45 @@
+table{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: dimgrey;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+}
+tr td:first-child{
+    color: #FFFFFF;
+    font-style: italic
+}
+
+#userStat{
+    width: 10px;
+    height: 10px;
+    color:green
+}
+
+#support {
+    color: red
+}
+
+a {
+    color: #FFFF99;
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline
+}
+
+.grey{
+    color: silver;
+}
+th{
+    font-weight: normal;
+    text-align: left;
+    color: silver;
+}
+
+#statusAnswer{
+    color:  #CE6B43;
+}

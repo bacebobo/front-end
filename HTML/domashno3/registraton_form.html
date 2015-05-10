@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        table{
+            border-collapse: collapse;
+        }
+        .text{
+            text-align: center;
+            font-weight:bold ;
+        }
+        .lastline{
+            text-align: center;
+        }
+        .color{
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr >
+            <td class="text"> <label for="last"> Last Name </label> </td>
+            <td>
+                    <input id="last" type="text" size="34"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="text"> <label for="first"> First Name </label> </td>
+            <td width="66%">
+                <input id="first" type="text" size="34"/>
+            </td>
+        </tr>
+        <tr>
+            <td class="text"> Address </td>
+            <td>
+                <textarea rows="4" cols="30"> </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="text"> City </td>
+            <td>
+                <form>
+                    <input type="text"> State <input type="text" size="4">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td class="text"> Zip/Postal Code </td>
+            <td> <input type="number"> </td>
+        </tr>
+        <tr>
+            <td class="text"> Country </td>
+            <td>
+                <select>
+                    <option value="1"> Bulgaria </option>
+                    <option value="2"> Avganistan </option>
+                    <option value="3"> England </option>
+                </select>
+            </Td>
+        </tr>
+        <tr>
+            <td class="text"> Phone(contry code,<br>
+            area code, number)</td>
+            <td> (+ <input type="text" size="1"> ) <input type="text" size="1"> <input type="text" size="15"> </td>
+        </tr>
+        <tr>
+            <td class="text"> Email </td>
+            <td> <input type="email" size="35"/> </Td>
+        </tr>
+        <tr>
+            <td class="text"> Birth date </td>
+            <td><input type="date"> </td>
+        </tr>
+        <tr>
+            <td class="text"> Gender </td>
+            <td><select>
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="text"> Starting date </td>
+            <td>
+                <form>
+                    <input id="n1" type="radio">
+                    <label for="n1">Spring 2015</label>
+                    <input id="n2" type="radio">
+                    <label for="n1">Summer 2015</label>
+                </form>
+             </td>
+        </tr>
+        <tr >
+            <td class="text"> Comments/Questions</td>
+            <td><textarea rows="6" cols="30"></textarea></td>
+        </tr>
+
+        <tr>
+         <td class="color" colspan="2"> <div class="lastline"> <input type="button" value="Submit"> <input type="button" value="Clean This Form"> </div> </td>
+        </tr>
+
+
+
+    </table>
+</body>
+</html>

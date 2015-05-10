@@ -1,0 +1,123 @@
+
+*{
+    font-family: Verdana;
+}
+body > div{
+    background: #F1F1F1;
+    border: 1px solid black;
+    width: 890px;
+    height: 750px;
+    padding: 2px;
+}
+/* Navigation Edit and Design */
+nav{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+img{
+    padding: 10px 0px 10px 0px;
+}
+
+nav ul{
+    margin: 0px 0px 20px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li:first-child{
+    color: #8C0100;
+    font-weight: bold;
+}
+
+/* --------------------------- */
+
+/* Main Edit and Design */
+
+main{
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    margin-right: 2px;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid black;
+    width: 500px;
+}
+span.leftArrow{
+    float: left;
+}
+span.rightArrow{
+    float: right;
+}
+main button{
+    width: 100px;
+    background-color: white;
+    border-color: black;
+}
+main section article{
+    padding: 0px 0px 10px 0px;
+}
+
+main section div.divBold{
+    font-weight: bold;
+}
+
+main section article img{
+    margin-top: 10px;
+    padding: 10px 10px 40px 0px;
+    float: left;
+}
+
+main section div.title{;
+    background: #808080;
+    color: white;
+    padding: 0px 0px 0px 5px;
+}
+
+main header div{
+    width: 98%;
+}
+
+hr{
+    width: 98%;
+}
+
+/* Aside Edit and Design */
+
+aside{
+    width: 220px;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+aside > article > header {
+    background-color: #808080;
+    color: white;
+    width: 220px;
+}
+aside article {
+    background: white;
+    border: 1px solid;
+    padding: 0px 15px 5px 0px;
+    margin: 2px 0px 0px 0px;
+}
+aside article input{
+    margin: 5px;
+    width: 100px;
+}
+
+aside article a{
+    color: brown;
+}
+
+aside article button{
+    background-color: white;
+    border-width: 2px;
+    color: black;
+    font-weight: bold;
+}
+
+

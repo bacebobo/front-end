@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <style type="text/css">
+        td.center{
+            text-align: center;
+        }
+/* ^ Слага всички текстови елементи сложени в td-тата в средата на всяка клетка. /*
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+       <td colspan="2" style="text-align: center"> <i> <h2> Fresh Fruits </h2> </i>  </td>
+    </tr>
+    <tr>
+        <td>
+         It has long been known that a diet <br>
+            that includes at lest a few <br>
+        servings of a fresh fruit every day <br>
+        will help keep you healthy, Fit and<br>
+            trim.
+        </td>
+        <td>  <img src="Screenshot_2.png"/>
+        </td>
+</tr>
+</table>
+
+<table border="2" cellpadding="9">
+    <tr>
+        <td colspan="3"> Title goes here </td>
+        <td> A </td>
+        <td> B  </td>
+    </tr>
+    <tr>
+        <td rowspan="3"> C  </td>
+        <td> D </td>
+        <td> E </td>
+        <td> F </td>
+        <td> G  </td>
+
+    </tr>
+    <tr>
+        <td> H </td>
+        <td colspan="2" class="center" > I </td>
+        <td rowspan="2" > J </td>
+        <!-- Така и не разбрах как да направя, така че "J"-a да е долу в дясно на клетката. -->
+    </tr>
+    <tr>
+
+        <td> K </td>
+        <td> L </td>
+        <td> M </td>
+
+    </tr>
+    <tr>
+
+        <td style="text-align: right"> N </td>
+        <!-- ^ Единствения елемент, който не притежава текстово централно подравняване. Така, изглеждаше на картинката, затова така го направих.-->
+        <td colspan="4" class="center"> O </td>
+
+    </tr>
+</table>
+
+</body>
+</html>
